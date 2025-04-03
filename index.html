@@ -489,7 +489,23 @@
     </footer>
     <div class="backdrop" data-modal>
       <div class="modal">
-        <button class="modal-class-btn" data-modal-close></button>
+        <button class="modal-close-btn" data-modal-close>
+          <svg class="close-icon" width="8" height="8">
+            <use href="../images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+        <p class="modal-title">Leave your contacts and we will call you back</p>
+        <form class="modal-form">
+          <div>
+            <input type="text" class="modal-input" name="user-name" />
+          </div>
+          <div>
+            <input type="text" class="modal-input" name="user-tel" />
+          </div>
+          <div>
+            <input type="text" class="modal-input" name="user-email" />
+          </div>
+        </form>
       </div>
     </div>
 
