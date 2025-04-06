@@ -566,13 +566,13 @@ img {
 }
 
 .subscribe-btn {
-    display: inline-block;
+    display: flex;
     align-items: center; 
     justify-content: center;
     flex-direction: row;
     border-radius: 4px;
     padding: 8px 24px;
-    width: 165px;
+    min-width: 165px;
     height: 40px;
     background-color: #4d5ae5;
     font-weight: 500;
@@ -592,6 +592,7 @@ img {
 .subscribe-icon {
     fill: #fff;
     vertical-align: middle;
+    margin-left: 16px;
 }
 
 
