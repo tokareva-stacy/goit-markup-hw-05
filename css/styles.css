@@ -692,8 +692,6 @@ img {
 .modal-field {
     margin-bottom: 8px;
     width: 100%;
-    
-    
 }
 
 .modal-label {
@@ -739,6 +737,12 @@ img {
     fill: #4D5AE5;
 }
 
+
+.modal-field-textarea {
+    margin-bottom: 16px;
+    width: 100%;
+}
+
 .modal-textarea {
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
@@ -779,7 +783,7 @@ img {
     border-radius: 2px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     margin-right: 8px;
-    display: flex;
+    /* display: flex; */
     align-items: center;
     justify-content: center;
     fill: transparent;
@@ -796,17 +800,20 @@ a {
 
 }
 
-
+.modal-field-checkbox {
+    margin-bottom: 24px;
+    width: 100%;
+}
 .modal-checkbox {
     width: 16px;
     height: 16px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 2px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    display: inline-flex;
     align-items: center;
     justify-content: center;
     fill: transparent;
+    display: inline-flex;
 }
 .check-icon {
     top: 4px;
@@ -839,6 +846,6 @@ a {
     letter-spacing: 0.04em;
     color: #fff;
     border: none;
-    margin-bottom:24px;
+    
 }
 
